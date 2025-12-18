@@ -1,0 +1,38 @@
+{
+    "app-id": "org.zbridge.Club",
+    "runtime": "org.freedesktop.Platform",
+    "runtime-version": "24.08",
+    "sdk": "org.freedesktop.Sdk",
+    "base": "org.electronjs.Electron2.BaseApp",
+    "base-version": "24.08",
+    "command": "zbridge-club",
+    "finish-args": [
+        "--share=ipc",
+        "--socket=x11",
+        "--socket=wayland",
+        "--share=network",
+        "--device=dri",
+        "--filesystem=xdg-download"
+    ],
+    "modules": [
+        {
+            "name": "zbridge-club",
+            "buildsystem": "simple",
+            "build-commands": [
+                "npm install --offline",
+                "npx electron-builder --linux --dir",
+                "cp -r dist/linux-unpacked /app/zbridge-club",
+                "mkdir -p /app/bin",
+                "ln -s /app/zbridge-club/zbridge-club-desktop /app/bin/zbridge-club"
+            ],
+            "sources": [
+                {
+                    "type": "git",
+                    "url": "https://github.com/amitter84/zbridge-flatpak-source.git",
+                    "tag": "v1.0.0"
+                },
+                "node-sources.json"
+            ]
+        }
+    ]
+}
