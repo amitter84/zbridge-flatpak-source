@@ -3,6 +3,12 @@
     "runtime": "org.freedesktop.Platform",
     "runtime-version": "24.08",
     "sdk": "org.freedesktop.Sdk",
+    "sdk-extensions": [
+        "org.freedesktop.Sdk.Extension.node20"
+    ],
+    "build-options": {
+        "append-path": "/usr/lib/sdk/node20/bin"
+    },
     "base": "org.electronjs.Electron2.BaseApp",
     "base-version": "24.08",
     "command": "zbridge-club",
@@ -19,7 +25,7 @@
             "name": "zbridge-club",
             "buildsystem": "simple",
             "build-commands": [
-                "npm install --offline",
+                "npm install --offline --ignore-scripts",
                 "npx electron-builder --linux --dir",
                 "cp -r dist/linux-unpacked /app/zbridge-club",
                 "mkdir -p /app/bin",
