@@ -25,6 +25,7 @@
             "name": "zbridge-club",
             "buildsystem": "simple",
             "build-commands": [
+                "npm config set cache $(pwd)/npm-cache",
                 "npm install --offline --ignore-scripts",
                 "npx electron-builder --linux --dir",
                 "cp -r dist/linux-unpacked /app/zbridge-club",
