@@ -27,7 +27,7 @@ npm run dist
 This command will:
 1.  Clean previous builds.
 2.  Build the Electron app (unpacked) into `dist/linux-unpacked`.
-3.  Use `flatpak-builder` and the `org.zbridge.Club.json` manifest to build the Flatpak.
+3.  Use `flatpak-builder` and the `club.zbridge.zbridge.json` manifest to build the Flatpak.
 4.  Export the result to `zBridgeClub.flatpak`.
 
 **Output:** `zBridgeClub.flatpak` (in this directory).
@@ -50,6 +50,6 @@ npm start
 
 ## Configuration
 
-- **Manifest:** `org.zbridge.Club.json` - Defines the Flatpak build configuration, sandbox permissions, and runtime version.
+- **Manifest:** `club.zbridge.zbridge.json` - Defines the Flatpak build configuration, sandbox permissions, and runtime version.
 - **Electron Entry:** `main.js` - The script that loads the website.
 - **Icon:** `icon.png` - App icon.

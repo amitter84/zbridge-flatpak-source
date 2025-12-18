@@ -9,11 +9,11 @@
     "start": "electron .",
     "dist": "npm run clean && npm run build:electron && npm run build:flatpak",
     "build:electron": "electron-builder --dir",
-    "build:flatpak": "flatpak-builder --repo=repo --force-clean build_dir org.zbridge.Club.json && flatpak build-bundle repo zBridgeClub.flatpak org.zbridge.Club",
+    "build:flatpak": "flatpak-builder --repo=repo --force-clean build_dir club.zbridge.zbridge.json && flatpak build-bundle repo zBridgeClub.flatpak club.zbridge.zbridge",
     "clean": "rm -rf dist build_dir repo .flatpak-builder zBridgeClub.flatpak"
   },
   "build": {
-    "appId": "org.zbridge.Club",
+    "appId": "club.zbridge.zbridge",
     "productName": "zBridge Club",
     "directories": {
       "output": "dist"
