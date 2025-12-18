@@ -1,0 +1,39 @@
+{
+    "app-id": "org.zbridge.Club",
+    "runtime": "org.freedesktop.Platform",
+    "runtime-version": "24.08",
+    "sdk": "org.freedesktop.Sdk",
+    "command": "zbridge-club",
+    "finish-args": [
+        "--share=ipc",
+        "--socket=x11",
+        "--socket=wayland",
+        "--share=network",
+        "--device=dri",
+        "--filesystem=xdg-download"
+    ],
+    "modules": [
+        {
+            "name": "zbridge-club",
+            "buildsystem": "simple",
+            "build-commands": [
+                "cp -r . /app/zbridge-club",
+                "mkdir -p /app/bin",
+                "ln -s /app/zbridge-club/zbridge-club /app/bin/zbridge-club"
+            ],
+            "sources": [
+                {
+                    "type": "dir",
+                    "path": "dist/linux-unpacked"
+                },
+                {
+                    "type": "script",
+                    "dest-filename": "zbridge-club",
+                    "commands": [
+                        "/app/zbridge-club/zbridge-club-desktop --no-sandbox \"$@\""
+                    ]
+                }
+            ]
+        }
+    ]
+}

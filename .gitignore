@@ -1,0 +1,7 @@
+node_modules/
+dist/
+build_dir/
+repo/
+.flatpak-builder/
+zBridgeClub.flatpak
+*.log

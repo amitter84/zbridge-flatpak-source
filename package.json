@@ -1,0 +1,46 @@
+{
+  "name": "zbridge-club-desktop",
+  "version": "1.0.0",
+  "description": "zBridge Club Desktop App",
+  "main": "main.js",
+  "author": "zBridge Club",
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "electron .",
+    "dist": "npm run clean && npm run build:electron && npm run build:flatpak",
+    "build:electron": "electron-builder --dir",
+    "build:flatpak": "flatpak-builder --repo=repo --force-clean build_dir org.zbridge.Club.json && flatpak build-bundle repo zBridgeClub.flatpak org.zbridge.Club",
+    "clean": "rm -rf dist build_dir repo .flatpak-builder zBridgeClub.flatpak"
+  },
+  "build": {
+    "appId": "org.zbridge.Club",
+    "productName": "zBridge Club",
+    "directories": {
+      "output": "dist"
+    },
+    "linux": {
+      "target": [
+        "flatpak"
+      ],
+      "category": "Game",
+      "maintainer": "zBridge Club <support@zbridge.club>",
+      "icon": "icon.png"
+    },
+    "flatpak": {
+      "runtimeVersion": "24.08",
+      "sdk": "org.freedesktop.Sdk",
+      "finishArgs": [
+        "--share=ipc",
+        "--socket=x11",
+        "--socket=wayland",
+        "--share=network",
+        "--device=dri",
+        "--filesystem=xdg-download"
+      ]
+    }
+  },
+  "devDependencies": {
+    "electron": "^29.0.0",
+    "electron-builder": "^24.13.0"
+  }
+}
