@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>club.zbridge.zbridge</id>
+  <name>zBridge Club</name>
+  <summary>Contract bridge game</summary>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>LicenseRef-proprietary</project_license>
+  <description>
+    <p>
+      zBridge Club is a modern, social contract bridge platform. Play with friends, compete in rated games, or practice with our advanced robot, Jethro.
+    </p>
+    <p>Features include:</p>
+    <ul>
+      <li>Social Rooms: Play casually with friends (video/voice chat coming soon).</li>
+      <li>Rated Games: Compete for ELO ratings in serious matches.</li>
+      <li>Bot Practice: Hone your skills with Jethro, our 2/1 system robot.</li>
+      <li>Analysis Room: Review hands and analyze play with double-dummy logic.</li>
+    </ul>
+  </description>
+  <branding>
+    <color type="primary" scheme_preference="light">#2E5339</color>
+  </branding>
+  <launchable type="desktop-id">club.zbridge.zbridge.desktop</launchable>
+  <screenshots>
+    <screenshot type="default">
+      <caption>The game table in action</caption>
+      <image>https://raw.githubusercontent.com/amitter84/zbridge-flatpak-source/main/screenshots/screenshot1.jpg</image>
+    </screenshot>
+    <screenshot>
+      <caption>Analysis Room</caption>
+      <image>https://raw.githubusercontent.com/amitter84/zbridge-flatpak-source/main/screenshots/screenshot2.jpg</image>
+    </screenshot>
+    <screenshot>
+      <caption>Bridge Rooms</caption>
+      <image>https://raw.githubusercontent.com/amitter84/zbridge-flatpak-source/main/screenshots/screenshot3.jpg</image>
+    </screenshot>
+  </screenshots>
+  <url type="homepage">https://zbridge.club</url>
+  <content_rating type="oars-1.1"/>
+  <releases>
+    <release version="1.0.7" date="2025-12-23"/>
+  </releases>
+</component>
