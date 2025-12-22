@@ -27,16 +27,20 @@
   <launchable type="desktop-id">club.zbridge.zbridge.desktop</launchable>
   <screenshots>
     <screenshot type="default">
-      <caption>The game table in action</caption>
-      <image>https://raw.githubusercontent.com/amitter84/zbridge-flatpak-source/main/screenshots/screenshot1.jpg</image>
+      <caption>Game table</caption>
+      <image>https://raw.githubusercontent.com/amitter84/zbridge-flatpak-source/main/screenshots/Game%20table.jpg</image>
     </screenshot>
     <screenshot>
       <caption>Analysis Room</caption>
-      <image>https://raw.githubusercontent.com/amitter84/zbridge-flatpak-source/main/screenshots/screenshot2.jpg</image>
+      <image>https://raw.githubusercontent.com/amitter84/zbridge-flatpak-source/main/screenshots/Analysis%20Room.jpg</image>
     </screenshot>
     <screenshot>
-      <caption>Bridge Rooms</caption>
-      <image>https://raw.githubusercontent.com/amitter84/zbridge-flatpak-source/main/screenshots/screenshot3.jpg</image>
+      <caption>Game Rooms</caption>
+      <image>https://raw.githubusercontent.com/amitter84/zbridge-flatpak-source/main/screenshots/Game%20Rooms.jpg</image>
+    </screenshot>
+    <screenshot>
+      <caption>Interactive tutorials</caption>
+      <image>https://raw.githubusercontent.com/amitter84/zbridge-flatpak-source/main/screenshots/Interactive%20tutorials.jpg</image>
     </screenshot>
   </screenshots>
   <url type="homepage">https://zbridge.club</url>
