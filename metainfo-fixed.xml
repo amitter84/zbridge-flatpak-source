@@ -44,7 +44,10 @@
     </screenshot>
   </screenshots>
   <url type="homepage">https://zbridge.club</url>
-  <content_rating type="oars-1.1"/>
+  <content_rating type="oars-1.1">
+    <content_attribute id="social-chat">mild</content_attribute>
+    <content_attribute id="money-gambling">moderate</content_attribute>
+  </content_rating>
   <releases>
     <release version="1.0.7" date="2025-12-23"/>
   </releases>
