@@ -5,7 +5,7 @@
   <project_license>LicenseRef-proprietary</project_license>
   <name>zBridge Club</name>
   <developer_name>zBridge</developer_name>
-  <summary>Contract bridge game with a 2/1 bot and social/rated rooms</summary>
+  <summary>Contract bridge with 2/1 bot</summary>
   <branding>
     <color type="primary" scheme_preference="light">#2E5339</color>
     <color type="primary" scheme_preference="dark">#2E5339</color>
