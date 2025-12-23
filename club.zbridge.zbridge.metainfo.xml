@@ -34,26 +34,26 @@
   <screenshots>
     <screenshot type="default">
       <caption>The zBridge Club home page</caption>
-      <image>https://raw.githubusercontent.com/amitter84/zbridge-flatpak-source/main/screenshots/home_page.png</image>
+      <image>https://raw.githubusercontent.com/amitter84/zbridge-flatpak-source/update/burnished-gold-branding-v3/screenshots/home_page.png</image>
     </screenshot>
     <screenshot>
       <caption>Various game rooms available</caption>
-      <image>https://raw.githubusercontent.com/amitter84/zbridge-flatpak-source/main/screenshots/game_rooms.png</image>
+      <image>https://raw.githubusercontent.com/amitter84/zbridge-flatpak-source/update/burnished-gold-branding-v3/screenshots/game_rooms.png</image>
     </screenshot>
     <screenshot>
       <caption>Playing with Jethro AI robot</caption>
-      <image>https://raw.githubusercontent.com/amitter84/zbridge-flatpak-source/main/screenshots/play_with_bots.png</image>
+      <image>https://raw.githubusercontent.com/amitter84/zbridge-flatpak-source/update/burnished-gold-branding-v3/screenshots/play_with_bots.png</image>
     </screenshot>
     <screenshot>
       <caption>Analysis room for reviewing hands</caption>
-      <image>https://raw.githubusercontent.com/amitter84/zbridge-flatpak-source/main/screenshots/analysis_room.png</image>
+      <image>https://raw.githubusercontent.com/amitter84/zbridge-flatpak-source/update/burnished-gold-branding-v3/screenshots/analysis_room.png</image>
     </screenshot>
     <screenshot>
       <caption>Login and registration page</caption>
-      <image>https://raw.githubusercontent.com/amitter84/zbridge-flatpak-source/main/screenshots/log_in.png</image>
+      <image>https://raw.githubusercontent.com/amitter84/zbridge-flatpak-source/update/burnished-gold-branding-v3/screenshots/log_in.png</image>
     </screenshot>
     <screenshot>
-      <video codec="vp9" container="webm">https://raw.githubusercontent.com/amitter84/zbridge-flatpak-source/main/flatpak.webm</video>
+      <video codec="vp9" container="webm">https://raw.githubusercontent.com/amitter84/zbridge-flatpak-source/update/burnished-gold-branding-v3/flatpak.webm</video>
     </screenshot>
   </screenshots>
   <url type="homepage">https://zbridge.club</url>
