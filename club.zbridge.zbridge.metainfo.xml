@@ -34,26 +34,26 @@
   <screenshots>
     <screenshot type="default">
       <caption>The zBridge Club home page</caption>
-      <image>https://raw.githubusercontent.com/amitter84/zbridge-flatpak-source/update/burnished-gold-branding-v3/screenshots/home_page.png</image>
+      <image>https://raw.githubusercontent.com/amitter84/zbridge-flatpak-source/v1.1.1/screenshots/home_page.png</image>
     </screenshot>
     <screenshot>
       <caption>Various game rooms available</caption>
-      <image>https://raw.githubusercontent.com/amitter84/zbridge-flatpak-source/update/burnished-gold-branding-v3/screenshots/game_rooms.png</image>
+      <image>https://raw.githubusercontent.com/amitter84/zbridge-flatpak-source/v1.1.1/screenshots/game_rooms.png</image>
     </screenshot>
     <screenshot>
-      <caption>Playing with Jethro AI robot</caption>
-      <image>https://raw.githubusercontent.com/amitter84/zbridge-flatpak-source/update/burnished-gold-branding-v3/screenshots/play_with_bots.png</image>
+      <caption>Playing with an advanced bot</caption>
+      <image>https://raw.githubusercontent.com/amitter84/zbridge-flatpak-source/v1.1.1/screenshots/play_with_bots.png</image>
     </screenshot>
     <screenshot>
       <caption>Analysis room for reviewing hands</caption>
-      <image>https://raw.githubusercontent.com/amitter84/zbridge-flatpak-source/update/burnished-gold-branding-v3/screenshots/analysis_room.png</image>
+      <image>https://raw.githubusercontent.com/amitter84/zbridge-flatpak-source/v1.1.1/screenshots/analysis_room.png</image>
     </screenshot>
     <screenshot>
       <caption>Login and registration page</caption>
-      <image>https://raw.githubusercontent.com/amitter84/zbridge-flatpak-source/update/burnished-gold-branding-v3/screenshots/log_in.png</image>
+      <image>https://raw.githubusercontent.com/amitter84/zbridge-flatpak-source/v1.1.1/screenshots/log_in.png</image>
     </screenshot>
     <screenshot>
-      <video codec="vp9" container="webm">https://raw.githubusercontent.com/amitter84/zbridge-flatpak-source/update/burnished-gold-branding-v3/flatpak.webm</video>
+      <video codec="vp9" container="webm">https://raw.githubusercontent.com/amitter84/zbridge-flatpak-source/v1.1.1/flatpak.webm</video>
     </screenshot>
   </screenshots>
   <url type="homepage">https://zbridge.club</url>
@@ -67,6 +67,6 @@
   </recommends>
   <content_rating type="oars-1.1" />
   <releases>
-    <release version="1.0.8" date="2025-12-23" />
+    <release version="1.1.2" date="2025-12-23" />
   </releases>
 </component>
