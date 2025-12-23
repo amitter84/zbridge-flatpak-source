@@ -14,7 +14,7 @@
   },
   "build": {
     "appId": "club.zbridge.zbridge",
-    "productName": "zBridge Club",
+    "productName": "Zbridge",
     "directories": {
       "output": "dist"
     },

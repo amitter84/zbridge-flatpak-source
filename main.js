@@ -5,7 +5,7 @@ function createWindow() {
   const mainWindow = new BrowserWindow({
     width: 1280,
     height: 800,
-    title: "zBridge Club",
+    title: "Zbridge",
     icon: path.join(__dirname, 'icon.png'),
     webPreferences: {
       nodeIntegration: false,
@@ -15,6 +15,12 @@ function createWindow() {
   });
 
   // Remove the default menu for a cleaner, app-like look
+  
+  // Prevent the page from changing the window title
+  mainWindow.on('page-title-updated', (e) => {
+    e.preventDefault();
+  });
+
   mainWindow.setMenuBarVisibility(false);
 
   // Load the live application
