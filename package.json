@@ -24,7 +24,7 @@
       ],
       "category": "Game",
       "maintainer": "zBridge Club <support@zbridge.club>",
-      "icon": "icon.png"
+      "icon": "club.zbridge.zbridge.svg"
     },
     "flatpak": {
       "runtimeVersion": "24.08",

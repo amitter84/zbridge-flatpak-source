@@ -6,7 +6,7 @@ function createWindow() {
     width: 1280,
     height: 800,
     title: "Zbridge",
-    icon: path.join(__dirname, 'icon.png'),
+    icon: path.join(__dirname, 'club.zbridge.zbridge.svg'),
     webPreferences: {
       nodeIntegration: false,
       contextIsolation: true,
@@ -15,7 +15,7 @@ function createWindow() {
   });
 
   // Remove the default menu for a cleaner, app-like look
-  
+
   // Prevent the page from changing the window title
   mainWindow.on('page-title-updated', (e) => {
     e.preventDefault();
