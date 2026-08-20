@@ -7,8 +7,8 @@
   <developer_name>zBridge</developer_name>
   <summary>Contract bridge game</summary>
   <branding>
-    <color type="primary" scheme_preference="light">#4a9d5f</color>
-    <color type="primary" scheme_preference="dark">#2a5238</color>
+    <color type="primary" scheme_preference="light">#1e6b3c</color>
+    <color type="primary" scheme_preference="dark">#0b381d</color>
   </branding>
   <description>
     <p>
