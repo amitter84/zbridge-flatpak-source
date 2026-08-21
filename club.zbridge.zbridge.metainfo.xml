@@ -5,7 +5,7 @@
   <project_license>LicenseRef-proprietary</project_license>
   <name>zBridge Club</name>
   <developer_name>zBridge</developer_name>
-  <summary>Contract bridge game</summary>
+  <summary>Play contract bridge online</summary>
   <branding>
     <color type="primary" scheme_preference="light">#e2e8f0</color>
     <color type="primary" scheme_preference="dark">#0f172a</color>
