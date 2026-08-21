@@ -7,27 +7,24 @@
   <developer_name>zBridge</developer_name>
   <summary>Contract bridge game</summary>
   <branding>
-    <color type="primary" scheme_preference="light">#1e293b</color>
+    <color type="primary" scheme_preference="light">#e2e8f0</color>
     <color type="primary" scheme_preference="dark">#0f172a</color>
   </branding>
   <description>
     <p>
-      Contract bridge is a trick-taking card game for four players, divided into two partnerships sitting opposite each other (North-South vs. East-West).
+      Zbridge is a complete contract bridge platform for players of all skill levels. Learn, practice, and play contract bridge online or hone your skills with our advanced AI bridge bot and deal analysis tools.
     </p>
+    <p>Key Features of Zbridge:</p>
+    <ul>
+      <li>Advanced Bot (Jethro): Play contract bridge with Jethro, a competitive bot built on 2/1 Game Forcing principles. Utilizing probability-based play algorithms based on known hand information, Jethro acts as a formidable opponent and reliable partner.</li>
+      <li>Interactive Learning &amp; Tutorials: Perfect for beginners and improvers. Learn how to play bridge step-by-step with interactive lessons and guided bidding hints.</li>
+      <li>Bidding &amp; Deal Analysis Room: Analyze custom or random deals with single and double dummy solver analysis. Practice 2/1 bidding, review possible trick counts for any contract, and view detailed bid explanations from the AI.</li>
+      <li>Multiplayer Game Rooms: Join casual, social, or rated duplicate bridge tables. Track your performance with game records and player rating systems.</li>
+      <li>Community &amp; Social Features: Create bidding polls, publish bridge articles, participate in lobby chat, add friends, and send private messages.</li>
+      <li>Ad-Free Experience: Zbridge is completely free to play with no adware.</li>
+    </ul>
     <p>
-      zBridge is an online bridge club where you can learn and play bridge. It is a full bridge platform with multiple features.
-    </p>
-    <p>
-      Play with Jethro, a competitive bridge bot for 2/1 game forcing, try our interactive tutorials, join multiplayer games in social and rated rooms, or analyse custom/random deals in the analysis room to practice different bidding and playing scenarios with hints from the AI. Compose bidding polls or bridge articles. The app features a duplicate scoring system, game records and a rating system for players. It is completely free and without any adware. Our mission is to provide a premium experience to bridge enthusiasts on all platforms.
-    </p>
-    <p>
-      In the analysis and bot rooms, Jethro offers a detailed explanation for each bid made with a suggestion for your next bid. This is a great tool for learners to improve their bidding. The nuanced human like bidding of Jethro means that it can provide hours of fun for intermediate and expert players as well. The double dummy solver used for the playing phase is wrapped by an algorithm to chose the most appropriate card from among the DDS choices to avoid complete robotic play where possible without compromising on achieving the best outcome. This combination creates a great partner and a formidable opponent to improve your game. The analysis room also features a complete double dummy analysis showing the possible tricks for any contract. The analysis room is the ideal place to practice 2/1 bidding with the bot on random or custom hands.
-    </p>
-    <p>
-      For the best experience, we advise newcomers to first go through the 'How to play bridge' tutorial, then the interactive tutorial and then learn continuously by playing with Jethro before stepping into multiplayer game rooms.
-    </p>
-    <p>
-      Members can also create bidding polls and blog posts to engage with the community. The lobby and rooms also have a community chat. Members can also send friend requests and private messages.
+      Whether you want to practice 2/1 bidding against AI, solve complex double dummy hands, or compete in online multiplayer duplicate games, Zbridge provides a complete suite for bridge enthusiasts on mobile and web platforms. Download Zbridge today to start playing and practicing.
     </p>
   </description>
   <launchable type="desktop-id">club.zbridge.zbridge.desktop</launchable>
@@ -37,16 +34,16 @@
       <image>https://raw.githubusercontent.com/amitter84/zbridge-flatpak-source/update-icon-and-branding/screenshots/learn_to_play.png</image>
     </screenshot>
     <screenshot>
-      <caption>Analyze games</caption>
-      <image>https://raw.githubusercontent.com/amitter84/zbridge-flatpak-source/update-icon-and-branding/screenshots/analyze_games.png</image>
+      <caption>Play with Bot</caption>
+      <image>https://raw.githubusercontent.com/amitter84/zbridge-flatpak-source/update-icon-and-branding/screenshots/play_with_bot.png</image>
     </screenshot>
     <screenshot>
-      <caption>Replay games</caption>
-      <image>https://raw.githubusercontent.com/amitter84/zbridge-flatpak-source/update-icon-and-branding/screenshots/replay_games.png</image>
+      <caption>Bridge Solver</caption>
+      <image>https://raw.githubusercontent.com/amitter84/zbridge-flatpak-source/update-icon-and-branding/screenshots/bridge_solver.png</image>
     </screenshot>
     <screenshot>
-      <caption>Login screen</caption>
-      <image>https://raw.githubusercontent.com/amitter84/zbridge-flatpak-source/update-icon-and-branding/screenshots/login_screen.png</image>
+      <caption>Monthly Events</caption>
+      <image>https://raw.githubusercontent.com/amitter84/zbridge-flatpak-source/update-icon-and-branding/screenshots/monthly_events.png</image>
     </screenshot>
     <screenshot>
       <video codec="vp9" container="webm">https://raw.githubusercontent.com/amitter84/zbridge-flatpak-source/update-icon-and-branding/flatpak.webm</video>
