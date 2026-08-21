@@ -80,7 +80,7 @@ modules:
   - type: git
     url: https://github.com/amitter84/zbridge-flatpak-source.git
     tag: v1.1.8
-    commit: 080e394cf06aef1cabd90bb43f6823d6f62f03c1
+    commit: 8d815649e609f5a6be20c147229249f1871daabf
   - type: file
     path: club.zbridge.zbridge.metainfo.xml
   - type: file
