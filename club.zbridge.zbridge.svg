@@ -57,11 +57,6 @@
       <stop offset="100%" stop-color="#991b1b"/>
     </linearGradient>
 
-    <!-- Deep Ambient 3D Shadow Filters -->
-    <filter id="tileAmbientShadow" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="8" stdDeviation="6" flood-color="#020b05" flood-opacity="0.65"/>
-    </filter>
-
     <filter id="cardShadow3D" x="-30%" y="-30%" width="160%" height="160%">
       <feDropShadow dx="2" dy="6" stdDeviation="4" flood-color="#031207" flood-opacity="0.55"/>
     </filter>
@@ -81,35 +76,43 @@
       <path d="M 0,14 C -2.2,12 -13,3.8 -13,-3.2 C -13,-9 -7.8,-12 -2.8,-9.8 C -1.2,-9.1 0,-7.2 0,-7.2 C 0,-7.2 1.2,-9.1 2.8,-9.8 C 7.8,-12 13,-9 13,-3.2 C 13,3.8 2.2,12 0,14 Z" fill="url(#heartGrad)"/>
       <path d="M 0,-5 C 0,-5 1,-7.5 2.3,-8 C 6.5,-9.8 10.5,-7.2 10.5,-2.5 C 10.5,2 -1,8.5 -0.5,2 C 2,2 5,-1 0,-5 Z" fill="#ffffff" opacity="0.2"/>
     </g>
+
+    <!-- Clip path to keep all internal elements strictly inside the base tile squircle -->
+    <clipPath id="tileClip">
+      <rect x="16" y="16" width="96" height="96" rx="24" ry="24"/>
+    </clipPath>
   </defs>
 
-  <!-- 3D BASE TILE: GNOME 112x112 squircle with 3D depth bevel -->
-  <g filter="url(#tileAmbientShadow)">
-    <rect x="8" y="12" width="112" height="108" rx="28" ry="28" fill="url(#tileBevel)"/>
-    <rect x="8" y="8" width="112" height="108" rx="28" ry="28" fill="url(#tileSurface)"/>
-    <rect x="8" y="8" width="112" height="108" rx="28" ry="28" fill="none" stroke="url(#topHighlightRim)" stroke-width="1.5"/>
+  <!-- 3D BASE TILE: Compact 96x96 tile cleanly padded inside 128x128 grid (NO OUTSIDE SHADOW) -->
+  <g>
+    <rect x="16" y="19" width="96" height="93" rx="24" ry="24" fill="url(#tileBevel)"/>
+    <rect x="16" y="16" width="96" height="93" rx="24" ry="24" fill="url(#tileSurface)"/>
+    <rect x="16" y="16" width="96" height="93" rx="24" ry="24" fill="none" stroke="url(#topHighlightRim)" stroke-width="1.5"/>
   </g>
 
-  <!-- 3D GOLDEN BRIDGE ARCH STRUCTURE -->
-  <g filter="url(#archShadow3D)">
-    <path d="M 20 94 C 40 50, 88 50, 108 94" fill="none" stroke="#04150a" stroke-width="9" opacity="0.4"/>
-    <path d="M 20 94 C 40 50, 88 50, 108 94" fill="none" stroke="url(#gold3D)" stroke-width="6.5" stroke-linecap="round"/>
-    <path d="M 21 93.5 C 40 50.5, 88 50.5, 107 93.5" fill="none" stroke="url(#goldSpecular)" stroke-width="1.75" stroke-linecap="round"/>
-    <path d="M 16 94 L 112 94" stroke="url(#gold3D)" stroke-width="3.5" stroke-linecap="round"/>
-  </g>
+  <!-- INNER CONTENT CLIPPED STRICTLY TO BASE TILE -->
+  <g clip-path="url(#tileClip)">
+    <!-- 3D GOLDEN BRIDGE ARCH STRUCTURE -->
+    <g filter="url(#archShadow3D)">
+      <path d="M 28 88 C 44 52, 84 52, 100 88" fill="none" stroke="#04150a" stroke-width="8" opacity="0.4"/>
+      <path d="M 28 88 C 44 52, 84 52, 100 88" fill="none" stroke="url(#gold3D)" stroke-width="6" stroke-linecap="round"/>
+      <path d="M 28 87.5 C 44 52.5, 84 52.5, 100 87.5" fill="none" stroke="url(#goldSpecular)" stroke-width="1.5" stroke-linecap="round"/>
+      <path d="M 28 88 L 100 88" stroke="url(#gold3D)" stroke-width="3.5" stroke-linecap="round"/>
+    </g>
 
-  <!-- 3D PLAYING CARDS WITH PHYSICAL THICKNESS -->
-  <!-- Card 1: Ace of Spades (Left, tilted -12°) -->
-  <g transform="translate(48, 55) rotate(-12)" filter="url(#cardShadow3D)">
-    <rect x="-20.5" y="-30.5" width="43" height="63" rx="5.5" fill="url(#cardThickness)"/>
-    <rect x="-22" y="-32" width="44" height="64" rx="5" fill="url(#cardFront)" stroke="#cbd5e1" stroke-width="0.75"/>
-    <use href="#spade3D" transform="scale(0.92)"/>
-  </g>
+    <!-- 3D PLAYING CARDS WITH PHYSICAL THICKNESS -->
+    <!-- Card 1: Ace of Spades (Left, tilted -12°) -->
+    <g transform="translate(50, 56) rotate(-12)" filter="url(#cardShadow3D)">
+      <rect x="-18" y="-26" width="37" height="53" rx="4.5" fill="url(#cardThickness)"/>
+      <rect x="-19.5" y="-27.5" width="38" height="54" rx="4" fill="url(#cardFront)" stroke="#cbd5e1" stroke-width="0.75"/>
+      <use href="#spade3D" transform="scale(0.8)"/>
+    </g>
 
-  <!-- Card 2: Ace of Hearts (Right, tilted +14°, overlapping) -->
-  <g transform="translate(79, 58) rotate(14)" filter="url(#cardShadow3D)">
-    <rect x="-20.5" y="-30.5" width="43" height="63" rx="5.5" fill="url(#cardThickness)"/>
-    <rect x="-22" y="-32" width="44" height="64" rx="5" fill="url(#cardFront)" stroke="#cbd5e1" stroke-width="0.75"/>
-    <use href="#heart3D" transform="scale(0.92)"/>
+    <!-- Card 2: Ace of Hearts (Right, tilted +14°, overlapping) -->
+    <g transform="translate(77, 58) rotate(14)" filter="url(#cardShadow3D)">
+      <rect x="-18" y="-26" width="37" height="53" rx="4.5" fill="url(#cardThickness)"/>
+      <rect x="-19.5" y="-27.5" width="38" height="54" rx="4" fill="url(#cardFront)" stroke="#cbd5e1" stroke-width="0.75"/>
+      <use href="#heart3D" transform="scale(0.8)"/>
+    </g>
   </g>
 </svg>
