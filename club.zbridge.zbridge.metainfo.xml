@@ -7,8 +7,8 @@
   <developer_name>zBridge</developer_name>
   <summary>Play contract bridge online</summary>
   <branding>
-    <color type="primary" scheme_preference="light">#e2e8f0</color>
-    <color type="primary" scheme_preference="dark">#0f172a</color>
+    <color type="primary" scheme_preference="light">#134e2a</color>
+    <color type="primary" scheme_preference="dark">#0a2e18</color>
   </branding>
   <description>
     <p>
