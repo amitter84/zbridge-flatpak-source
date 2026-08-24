@@ -31,22 +31,19 @@
   <screenshots>
     <screenshot type="default">
       <caption>Learn to play</caption>
-      <image>https://raw.githubusercontent.com/amitter84/zbridge-flatpak-source/update-icon-and-branding/screenshots/learn_to_play.png</image>
+      <image>https://raw.githubusercontent.com/amitter84/zbridge-flatpak-source/main/screenshots/learn_to_play.png</image>
     </screenshot>
     <screenshot>
       <caption>Play with Bot</caption>
-      <image>https://raw.githubusercontent.com/amitter84/zbridge-flatpak-source/update-icon-and-branding/screenshots/play_with_bot.png</image>
+      <image>https://raw.githubusercontent.com/amitter84/zbridge-flatpak-source/main/screenshots/play_with_bot.png</image>
     </screenshot>
     <screenshot>
       <caption>Bridge Solver</caption>
-      <image>https://raw.githubusercontent.com/amitter84/zbridge-flatpak-source/update-icon-and-branding/screenshots/bridge_solver.png</image>
+      <image>https://raw.githubusercontent.com/amitter84/zbridge-flatpak-source/main/screenshots/bridge_solver.png</image>
     </screenshot>
     <screenshot>
       <caption>Monthly Events</caption>
-      <image>https://raw.githubusercontent.com/amitter84/zbridge-flatpak-source/update-icon-and-branding/screenshots/monthly_events.png</image>
-    </screenshot>
-    <screenshot>
-      <video codec="vp9" container="webm">https://raw.githubusercontent.com/amitter84/zbridge-flatpak-source/update-icon-and-branding/flatpak.webm</video>
+      <image>https://raw.githubusercontent.com/amitter84/zbridge-flatpak-source/main/screenshots/monthly_events.png</image>
     </screenshot>
   </screenshots>
   <url type="homepage">https://zbridge.club</url>
