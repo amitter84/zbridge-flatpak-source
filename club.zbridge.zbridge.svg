@@ -3,20 +3,20 @@
   <defs>
     <!-- 3D Felt Green Tile Gradients & Shadows -->
     <linearGradient id="tileSurface" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#248a4c"/>
-      <stop offset="60%" stop-color="#186335"/>
-      <stop offset="100%" stop-color="#0f4523"/>
+      <stop offset="0%" stop-color="#2a9654"/>
+      <stop offset="60%" stop-color="#1c7540"/>
+      <stop offset="100%" stop-color="#145c2f"/>
     </linearGradient>
 
     <linearGradient id="tileBevel" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#0b3319"/>
-      <stop offset="100%" stop-color="#04170b"/>
+      <stop offset="0%" stop-color="#154d28"/>
+      <stop offset="100%" stop-color="#0d361b"/>
     </linearGradient>
 
     <linearGradient id="topHighlightRim" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.45"/>
-      <stop offset="20%" stop-color="#ffffff" stop-opacity="0.10"/>
-      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.0"/>
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.5"/>
+      <stop offset="20%" stop-color="#ffffff" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.15"/>
     </linearGradient>
 
     <!-- Metallic 3D Gold Arch Gradient -->
@@ -24,7 +24,7 @@
       <stop offset="0%" stop-color="#fff3b0"/>
       <stop offset="25%" stop-color="#ffca28"/>
       <stop offset="65%" stop-color="#f57c00"/>
-      <stop offset="100%" stop-color="#b75100"/>
+      <stop offset="100%" stop-color="#f58e00"/>
     </linearGradient>
 
     <linearGradient id="goldSpecular" x1="0%" y1="0%" x2="0%" y2="100%">
@@ -79,15 +79,15 @@
 
     <!-- Clip path to keep all internal elements strictly inside the base tile squircle -->
     <clipPath id="tileClip">
-      <rect x="16" y="16" width="96" height="96" rx="24" ry="24"/>
+      <rect x="14" y="14" width="100" height="100" rx="25" ry="25"/>
     </clipPath>
   </defs>
 
-  <!-- 3D BASE TILE: Compact 96x96 tile cleanly padded inside 128x128 grid (NO OUTSIDE SHADOW) -->
+  <!-- 3D BASE TILE: Compact 100x100 tile cleanly padded inside 128x128 grid (NO OUTSIDE SHADOW) -->
   <g>
-    <rect x="16" y="19" width="96" height="93" rx="24" ry="24" fill="url(#tileBevel)"/>
-    <rect x="16" y="16" width="96" height="93" rx="24" ry="24" fill="url(#tileSurface)"/>
-    <rect x="16" y="16" width="96" height="93" rx="24" ry="24" fill="none" stroke="url(#topHighlightRim)" stroke-width="1.5"/>
+    <rect x="14" y="17" width="100" height="97" rx="25" ry="25" fill="url(#tileBevel)"/>
+    <rect x="14" y="14" width="100" height="97" rx="25" ry="25" fill="url(#tileSurface)"/>
+    <rect x="14" y="14" width="100" height="97" rx="25" ry="25" fill="none" stroke="url(#topHighlightRim)" stroke-width="1.5"/>
   </g>
 
   <!-- INNER CONTENT CLIPPED STRICTLY TO BASE TILE -->
