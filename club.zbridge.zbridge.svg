@@ -3,14 +3,14 @@
   <defs>
     <!-- 3D Felt Green Tile Gradients & Shadows -->
     <linearGradient id="tileSurface" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#2a9654"/>
-      <stop offset="60%" stop-color="#1c7540"/>
-      <stop offset="100%" stop-color="#145c2f"/>
+      <stop offset="0%" stop-color="#2c9c57"/>
+      <stop offset="60%" stop-color="#218046"/>
+      <stop offset="100%" stop-color="#186b38"/>
     </linearGradient>
 
     <linearGradient id="tileBevel" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#154d28"/>
-      <stop offset="100%" stop-color="#0d361b"/>
+      <stop offset="0%" stop-color="#1b5c2f"/>
+      <stop offset="100%" stop-color="#134725"/>
     </linearGradient>
 
     <linearGradient id="topHighlightRim" x1="0%" y1="0%" x2="0%" y2="100%">
