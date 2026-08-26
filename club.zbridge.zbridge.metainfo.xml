@@ -31,21 +31,21 @@
   </description>
   <launchable type="desktop-id">club.zbridge.zbridge.desktop</launchable>
   <screenshots>
-    <screenshot type="default">
-      <caption>Learn to play</caption>
+    <screenshot>
+      <caption>Learn to play bridge</caption>
       <image>https://raw.githubusercontent.com/amitter84/zbridge-flatpak-source/main/screenshots/learn_to_play.png</image>
     </screenshot>
-    <screenshot>
-      <caption>Play with Bot</caption>
+    <screenshot type="default">
+      <caption>Play with the bot, Jethro</caption>
       <image>https://raw.githubusercontent.com/amitter84/zbridge-flatpak-source/main/screenshots/play_with_bot.png</image>
     </screenshot>
     <screenshot>
-      <caption>Bridge Solver - dark theme</caption>
+      <caption>Analysis room with single and double dummy solvers (dark mode)</caption>
       <image>https://raw.githubusercontent.com/amitter84/zbridge-flatpak-source/main/screenshots/bridge_solver.png</image>
     </screenshot>
     <screenshot>
-      <caption>Monthly Events</caption>
-      <image>https://raw.githubusercontent.com/amitter84/zbridge-flatpak-source/main/screenshots/monthly_events.png</image>
+      <caption>Replay games with analysis</caption>
+      <image>https://raw.githubusercontent.com/amitter84/zbridge-flatpak-source/main/screenshots/replay_games.png</image>
     </screenshot>
   </screenshots>
   <url type="homepage">https://zbridge.club</url>
