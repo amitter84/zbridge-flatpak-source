@@ -36,10 +36,6 @@
       <image>https://raw.githubusercontent.com/amitter84/zbridge-flatpak-source/main/screenshots/play_with_bot.png</image>
     </screenshot>
     <screenshot>
-      <caption>Learn to play bridge</caption>
-      <image>https://raw.githubusercontent.com/amitter84/zbridge-flatpak-source/main/screenshots/learn_to_play.png</image>
-    </screenshot>
-    <screenshot>
       <caption>Analysis room with single and double dummy solvers (dark mode)</caption>
       <image>https://raw.githubusercontent.com/amitter84/zbridge-flatpak-source/main/screenshots/bridge_solver.png</image>
     </screenshot>
@@ -59,6 +55,7 @@
   </recommends>
   <content_rating type="oars-1.1" />
   <releases>
+    <release version="1.1.9" date="2026-08-26" />
     <release version="1.1.8" date="2026-08-20" />
     <release version="1.1.2" date="2025-12-23" />
   </releases>
